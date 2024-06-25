@@ -4,7 +4,8 @@ body{
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+    background-color: azure;
+    /*background-image: url(pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);*/
 }
 .main_frame{
     max-width: 90%;
