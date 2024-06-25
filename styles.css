@@ -40,6 +40,8 @@ body{
     color: white;
     border: none;
     opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
 }
 .Log:hover{
     opacity: 1;
@@ -83,7 +85,7 @@ body{
         border-radius: 30vw;
         margin-top: 5vw;
         justify-self: center;
-        align-self: center;
+        align-self: center; 
     }
     @media (max-width:800px) {
         width: 60vw;
@@ -98,6 +100,23 @@ body{
     opacity: 0.8;
     width: 40.2vw;
     height: 40.2vw;
+    @media (max-width:400px) {
+        width: 60vw;
+        height: 60vw;
+        border-radius: 30vw;
+        margin-top: 5vw;
+        justify-self: center;
+        align-self: center;
+    }
+    @media (max-width:800px) {
+        width: 60vw;
+        height: 60vw;
+        border-radius: 30vw;
+        margin-top: 7vw;
+        justify-self: center;
+        align-self: center;
+    }
+
 }
 .Large_text{
     text-align: left;
