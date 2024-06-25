@@ -78,14 +78,20 @@ body{
     height: 40vw;
     border-radius: 20vw;
     @media (max-width:400px) {
-        width: 40vw;
-        height: 40vw;
+        width: 60vw;
+        height: 60vw;
+        border-radius: 30vw;
         margin-top: 5vw;
+        justify-self: center;
+        align-self: center;
     }
     @media (max-width:800px) {
-        width: 40vw;
-        height: 40vw;
+        width: 60vw;
+        height: 60vw;
+        border-radius: 30vw;
         margin-top: 7vw;
+        justify-self: center;
+        align-self: center;
     }
 }
 .side_image:hover{
@@ -159,10 +165,12 @@ body{
     align-items: center;
     @media (max-width:400px) {
         flex-direction: column;
+        text-align: center;
     }
     @media (max-width:800px) {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 }
 .footer_case1{
