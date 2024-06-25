@@ -55,7 +55,6 @@ body{
     height: 40vw;
     border-radius: 20vw;
     float: right;
-    padding-right: 2vw;
 }
 .side_image:hover{
     opacity: 0.8;
