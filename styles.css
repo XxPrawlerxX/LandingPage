@@ -232,3 +232,8 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.pagebottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
