@@ -232,8 +232,30 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.pagebottom{
+.page_bottom{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin: none;
+    margin-top: -5vw;
+    @media (max-width:400px) {
+        flex-direction: column;
+    }
+}
+.small_logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.page_bottom2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+}
+.compname{
+    font-size: 12px;
+    font-weight: 200;
 }
